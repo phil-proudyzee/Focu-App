@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1F1D0524BD5FDD00295C1D /* MyTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F1D0424BD5FDD00295C1D /* MyTasksViewController.swift */; };
+		4A1F1D0724BDD6D200295C1D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F1D0624BDD6D200295C1D /* AddViewController.swift */; };
+		4A6DFE3124C41249003CCCF3 /* Untitled-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6DFE3024C40DBD003CCCF3 /* Untitled-2.mp4 */; };
+		4A6DFE3724C4437A003CCCF3 /* rating5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A6DFE3624C44369003CCCF3 /* rating5.mp4 */; };
+		4A6DFE3924C50F2D003CCCF3 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6DFE3824C50F2D003CCCF3 /* TimerViewController.swift */; };
+		4A6DFE3B24C52DB4003CCCF3 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A6DFE3A24C52DAA003CCCF3 /* Quicksand-VariableFont_wght.ttf */; };
+		4AC51179249C5EAA003A0F84 /* FAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC51178249C5EAA003A0F84 /* FAQ.storyboard */; };
+		4ADA444B248CBB0B00A286FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA444A248CBB0B00A286FB /* AppDelegate.swift */; };
+		4ADA444D248CBB0B00A286FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA444C248CBB0B00A286FB /* SceneDelegate.swift */; };
+		4ADA444F248CBB0B00A286FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA444E248CBB0B00A286FB /* ViewController.swift */; };
+		4ADA4452248CBB0B00A286FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA4450248CBB0B00A286FB /* Main.storyboard */; };
+		4ADA4454248CBB0F00A286FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA4453248CBB0F00A286FB /* Assets.xcassets */; };
+		4ADA4457248CBB0F00A286FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA4455248CBB0F00A286FB /* LaunchScreen.storyboard */; };
+		4ADA4460248CDA3F00A286FB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA445F248CDA3F00A286FB /* Home.storyboard */; };
+		4ADA4464248CDA7900A286FB /* MyTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA4463248CDA7900A286FB /* MyTask.storyboard */; };
+		4ADA4466248CDA8700A286FB /* Achievements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA4465248CDA8700A286FB /* Achievements.storyboard */; };
+		4ADA4468248CDA9A00A286FB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADA4467248CDA9A00A286FB /* Settings.storyboard */; };
+		4ADA446E248DCFC300A286FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA446D248DCFC300A286FB /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0FDF0424C1B6FE005F9829 /* Focu! */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Focu!"; sourceTree = "<group>"; };
+		4A1F1D0424BD5FDD00295C1D /* MyTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyTasksViewController.swift; path = ../MyTasksViewController.swift; sourceTree = "<group>"; };
+		4A1F1D0624BDD6D200295C1D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = ../AddViewController.swift; sourceTree = "<group>"; };
+		4A6DFE3024C40DBD003CCCF3 /* Untitled-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Untitled-2.mp4"; path = "../../../D&T Files/User Interface D&T/Focu Assets/MyTasks/05_dynamicobjects/Untitled-2.mp4"; sourceTree = "<group>"; };
+		4A6DFE3624C44369003CCCF3 /* rating5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = rating5.mp4; path = "../../../D&T Files/User Interface D&T/Focu Assets/MyTasks/05_dynamicobjects/rating5.mp4"; sourceTree = "<group>"; };
+		4A6DFE3824C50F2D003CCCF3 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		4A6DFE3A24C52DAA003CCCF3 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4AC51178249C5EAA003A0F84 /* FAQ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FAQ.storyboard; sourceTree = "<group>"; };
+		4ADA4447248CBB0B00A286FB /* Focu!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focu!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADA444A248CBB0B00A286FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ADA444C248CBB0B00A286FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ADA444E248CBB0B00A286FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ADA4451248CBB0B00A286FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADA4453248CBB0F00A286FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADA4456248CBB0F00A286FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ADA4458248CBB0F00A286FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADA445F248CDA3F00A286FB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4ADA4463248CDA7900A286FB /* MyTask.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyTask.storyboard; sourceTree = "<group>"; };
+		4ADA4465248CDA8700A286FB /* Achievements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Achievements.storyboard; sourceTree = "<group>"; };
+		4ADA4467248CDA9A00A286FB /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		4ADA446D248DCFC300A286FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADA4444248CBB0B00A286FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6DFE2B24C1BED9003CCCF3 /* MyTask Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1F1D0624BDD6D200295C1D /* AddViewController.swift */,
+				4A1F1D0424BD5FDD00295C1D /* MyTasksViewController.swift */,
+				4A6DFE3824C50F2D003CCCF3 /* TimerViewController.swift */,
+			);
+			path = "MyTask Files";
+			sourceTree = "<group>";
+		};
+		4A6DFE2C24C1BF04003CCCF3 /* Home Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA446D248DCFC300A286FB /* HomeViewController.swift */,
+			);
+			path = "Home Files";
+			sourceTree = "<group>";
+		};
+		4A6DFE2D24C1BF5D003CCCF3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A6DFE3A24C52DAA003CCCF3 /* Quicksand-VariableFont_wght.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		4ADA443E248CBB0B00A286FB = {
+			isa = PBXGroup;
+			children = (
+				4ADA4449248CBB0B00A286FB /* Focu! */,
+				4A0FDF0424C1B6FE005F9829 /* Focu! */,
+				4ADA4448248CBB0B00A286FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADA4448248CBB0B00A286FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADA4447248CBB0B00A286FB /* Focu!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADA4449248CBB0B00A286FB /* Focu! */ = {
+			isa = PBXGroup;
+			children = (
+				4A6DFE2D24C1BF5D003CCCF3 /* fonts */,
+				4ADA445E248CDA0F00A286FB /* View */,
+				4ADA444A248CBB0B00A286FB /* AppDelegate.swift */,
+				4ADA444C248CBB0B00A286FB /* SceneDelegate.swift */,
+				4ADA444E248CBB0B00A286FB /* ViewController.swift */,
+				4ADA4453248CBB0F00A286FB /* Assets.xcassets */,
+				4ADA4455248CBB0F00A286FB /* LaunchScreen.storyboard */,
+				4ADA4458248CBB0F00A286FB /* Info.plist */,
+			);
+			path = "Focu!";
+			sourceTree = "<group>";
+		};
+		4ADA445E248CDA0F00A286FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A6DFE2C24C1BF04003CCCF3 /* Home Files */,
+				4A6DFE2B24C1BED9003CCCF3 /* MyTask Files */,
+				4ADA4450248CBB0B00A286FB /* Main.storyboard */,
+				4AC51178249C5EAA003A0F84 /* FAQ.storyboard */,
+				4ADA445F248CDA3F00A286FB /* Home.storyboard */,
+				4ADA4463248CDA7900A286FB /* MyTask.storyboard */,
+				4ADA4465248CDA8700A286FB /* Achievements.storyboard */,
+				4ADA4467248CDA9A00A286FB /* Settings.storyboard */,
+				4A6DFE3024C40DBD003CCCF3 /* Untitled-2.mp4 */,
+				4A6DFE3624C44369003CCCF3 /* rating5.mp4 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADA4446248CBB0B00A286FB /* Focu! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADA445B248CBB0F00A286FB /* Build configuration list for PBXNativeTarget "Focu!" */;
+			buildPhases = (
+				4ADA4443248CBB0B00A286FB /* Sources */,
+				4ADA4444248CBB0B00A286FB /* Frameworks */,
+				4ADA4445248CBB0B00A286FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Focu!";
+			productName = "Focu!";
+			productReference = 4ADA4447248CBB0B00A286FB /* Focu!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADA443F248CBB0B00A286FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Philip Lagud";
+				TargetAttributes = {
+					4ADA4446248CBB0B00A286FB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4ADA4442248CBB0B00A286FB /* Build configuration list for PBXProject "Focu!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADA443E248CBB0B00A286FB;
+			productRefGroup = 4ADA4448248CBB0B00A286FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADA4446248CBB0B00A286FB /* Focu! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADA4445248CBB0B00A286FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6DFE3B24C52DB4003CCCF3 /* Quicksand-VariableFont_wght.ttf in Resources */,
+				4A6DFE3724C4437A003CCCF3 /* rating5.mp4 in Resources */,
+				4A6DFE3124C41249003CCCF3 /* Untitled-2.mp4 in Resources */,
+				4ADA4457248CBB0F00A286FB /* LaunchScreen.storyboard in Resources */,
+				4ADA4454248CBB0F00A286FB /* Assets.xcassets in Resources */,
+				4ADA4452248CBB0B00A286FB /* Main.storyboard in Resources */,
+				4ADA4468248CDA9A00A286FB /* Settings.storyboard in Resources */,
+				4ADA4460248CDA3F00A286FB /* Home.storyboard in Resources */,
+				4AC51179249C5EAA003A0F84 /* FAQ.storyboard in Resources */,
+				4ADA4464248CDA7900A286FB /* MyTask.storyboard in Resources */,
+				4ADA4466248CDA8700A286FB /* Achievements.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADA4443248CBB0B00A286FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1F1D0524BD5FDD00295C1D /* MyTasksViewController.swift in Sources */,
+				4ADA444F248CBB0B00A286FB /* ViewController.swift in Sources */,
+				4A1F1D0724BDD6D200295C1D /* AddViewController.swift in Sources */,
+				4A6DFE3924C50F2D003CCCF3 /* TimerViewController.swift in Sources */,
+				4ADA444B248CBB0B00A286FB /* AppDelegate.swift in Sources */,
+				4ADA444D248CBB0B00A286FB /* SceneDelegate.swift in Sources */,
+				4ADA446E248DCFC300A286FB /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ADA4450248CBB0B00A286FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADA4451248CBB0B00A286FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADA4455248CBB0F00A286FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADA4456248CBB0F00A286FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADA4459248CBB0F00A286FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ADA445A248CBB0F00A286FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADA445C248CBB0F00A286FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9682DQSSZ;
+				INFOPLIST_FILE = "Focu!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goalsetting.Focu-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ADA445D248CBB0F00A286FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9682DQSSZ;
+				INFOPLIST_FILE = "Focu!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goalsetting.Focu-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADA4442248CBB0B00A286FB /* Build configuration list for PBXProject "Focu!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADA4459248CBB0F00A286FB /* Debug */,
+				4ADA445A248CBB0F00A286FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADA445B248CBB0F00A286FB /* Build configuration list for PBXNativeTarget "Focu!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADA445C248CBB0F00A286FB /* Debug */,
+				4ADA445D248CBB0F00A286FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADA443F248CBB0B00A286FB /* Project object */;
+}
